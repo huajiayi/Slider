@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Slider</title>
+    <link rel="stylesheet" href="css/Slider.css">
+</head>
+<body>
+    <div id="wrap">
+        <img src="img/dog1.jpg">
+        <img src="img/dog2.jpg">
+        <img src="img/dog3.jpg">
+        <img src="img/dog4.jpg">
+        <img src="img/dog5.jpg">
+    </div>
+
+    <script src="js/Slider.js"></script>
+    <script>
+        let warp = document.getElementById('wrap');
+        let slider = new Slider(warp, {
+            autoplay: true,
+            rotateY: 0
+        });
+    </script>
+</body>
+</html>

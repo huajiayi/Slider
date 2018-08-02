@@ -1,0 +1,23 @@
+.wrap {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    perspective: 800;
+    -webkit-perspective: 800;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+}
+
+.wrap img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 25%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
